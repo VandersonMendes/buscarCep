@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #f8f2e980;
+}
+.BuscarCep{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    color:#4d96ce;
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    margin: 30vh 0;
+    margin-bottom: 0vh;
+}
+.conteudo form{
+    margin: 2rem 0;
+}
+.conteudo form input{
+    margin: 0.5rem 0;
+    display:flex;
+    padding: 5px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+.conteudo form label{
+    font-size: 1.2rem;
+    color: rgb(0, 112, 15);
+}        
+.pesquisar{
+    background-color: rgba(26, 190, 53, 0.425);
+    border: none;
+    padding:5px 10px;
+    color: rgb(0, 112, 15);
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 20px;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+.limpar{
+    background-color: red;
+    color: white;
+}
+.nenhumaInf{
+    color: rgb(140, 0, 255);
+}
+.nenhumaInf.hiden{
+    visibility: hidden;
+}
+.informações{
+    border: 2px solid rgb(187, 188, 255);
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.informações .text.hiden{
+    display: none;
+}
+footer{
+   text-align: center;
+    margin-top: 16vh;
+    color: chocolate;
+}
+footer a{
+    text-decoration: none;
+}
