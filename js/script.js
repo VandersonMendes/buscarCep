@@ -14,7 +14,6 @@ buttonLimpar.addEventListener("click", limpar);
 buttonPesquisar.addEventListener("click", handleClick);
 
 function limpar(e){
-    e.preventDefault();
     erro.innerText ="/*Dados incorretos/*"
    const arrayText = Array.from(textInfo);
    arrayText.forEach((e) =>{
@@ -34,15 +33,19 @@ function buscarCep(cep){
     fetch(`https://viacep.com.br/ws/${cep}/json/`)
     .then(resp=> resp.json())
     .then(result =>{
+        console.log(result)
         cepN.innerText = `CEP : ${result.cep}`;
         uf.innerText = `UF: ${result.uf}`;
-        dd.innerText = `DD : ${result.ddd}`;
+        dd.innerText = `DD : ${result.ddd}`
         bairro.innerText = `Bairro: ${result.bairro}`
         cidade.innerText = `Cidade : ${result.localidade}`;
         erro.innerText = ""
-    }).catch(e =>erro.innerText ="/*Dados incorretos/*")
-}
+    })
+    .catch(e =>{
+        limpar()
+    })
 
+}
 
 
 

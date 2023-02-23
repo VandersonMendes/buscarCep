@@ -58,7 +58,7 @@ body{
     border: 2px solid rgb(187, 188, 255);
     text-align: center;
     border-radius: 10px;
-    padding-bottom: 1rem;
+    padding: 1rem 0;
     font-size: 1.2rem;
 }
 .informações .text.hiden{
