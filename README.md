@@ -28,4 +28,4 @@ This project is under the MIT license. See the file <a href="https://github.com/
 
 ---
 
-<p align="center">Done with 💙 by Vanderson Dias Mendes</p>
+<p align="center">Done with 💙  by Vanderson Dias Mendes</p>
