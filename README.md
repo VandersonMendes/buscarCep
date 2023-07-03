@@ -12,7 +12,8 @@
 
 ## 🧾 About
 
-**Dados da Nasa** is a project where I learned a lot (even now I learned from this README.md) and this is a project that consumes the NASA's APIs.
+**Buscar cep** é um projeto onde coloco meus conhecimentos sobre API, consumo uma API onde vc pode consultar CEP.
+
 
 ## 🔧 Tools
 <div>
